@@ -36,7 +36,7 @@ class Database
     {
 
         if (!$result) {
-            die("Query failed" . $this->connection->error);
+            die("Query failed ".'<br>' . $this->connection->error);
         }
     }
 
